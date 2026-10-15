@@ -1,0 +1,138 @@
+{
+    "chunks": [
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 0.0,
+            "end": 37.980000000000004,
+            "text": " Hello there, I'm Vieno and this is my fourth video tutorial on D3. In this video we'll  take a look at how to actually bind data to our visualization or in other words  actually visualize data on our webpage using D3. So in the previous video we  take, we took a look at SVG which is an image format for displaying graphical  elements on our webpage and in this video we'll use SVG to visualize a basic"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 37.980000000000004,
+            "end": 73.98,
+            "text": " data set. So first of all we'll just erase this. We'll keep our canvas  element since we need a canvas to draw our visualization. So usually when you  visualize data you have a large data set in a file somewhere, an SV file or  JSON file, there are different file formats for storing data but for the  purpose of this tutorial we'll just create our own data here. So we'll"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 73.98,
+            "end": 113.42,
+            "text": " create a new variable called data array which is will be an array and if you  don't know what an array is it's just a simple collection of data. You could  think of this as since we have three elements in our data array here this is  kind of like three different variables but stored in one variable. Yeah so let's  say we want to visualize this data. We could do this in a number of ways we could"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 113.42,
+            "end": 151.06,
+            "text": " display a circle for each data we could do it in a vast variety of ways but in  this case let's say we wanted to make a simple bar chart. So each data point here  would be represented by a bar. Let's begin by creating a the bars variable and  we start out from the canvas variable which is defined here. Now this is where  some strange things begin to happen and this will be very confusing to you. I"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 151.46,
+            "end": 187.02,
+            "text": " think most people are utterly confused by this. There are several steps here which  may seem kind of weird in the beginning but after a while you'll get the hang of it.  Let me try to explain the best I can and then you can just like sit in a like  your favorite chair and just contemplate about this. The first step is to select  all. This is a new method we use. Select all is similar to the select method"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 187.02,
+            "end": 224.29999999999998,
+            "text": " which we looked at previous but it selects all elements that we specify like  yeah in here between the brackets and the quotes. So since we want to create  bars bars are basically rectangles right so we're selecting all rectangles but  this is weird right because we don't have any actual rectangles on our page.  So what this method does in this context is returning an empty array or an empty"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 224.3,
+            "end": 261.90000000000003,
+            "text": " selection but it's still useful because we can use that empty selection to bind  we can connect it to our data and that is done using the data method and within  brackets we specify where our data is coming from and in this case we have a  variable set up here containing our data so we just specify that our data comes  from the data array variable. So so far we've bound our data to an empty"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 261.90000000000003,
+            "end": 310.98,
+            "text": " selection. The next step is the enter method. This method returns placeholders for  each data element for which there are no corresponding elements I mean doom  elements on the page. So yeah that's that's weird but let's say we we actually  had two two rectangles already on the page then this data method here would  bind them to like we're selecting all the rectangles. So let's say there are two"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 310.98,
+            "end": 349.02,
+            "text": " rectangles and the data method binds our data right here to those rectangles but  the enter method contains placeholders for each data point or each data element  for which there are no corresponding doom elements I mean and that is rectangles  on our page but since in this case we don't have any rectangles at all we are  enter method contains placeholders for each and every data element so we're"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 349.02,
+            "end": 389.9,
+            "text": " returned with three placeholders for each of these values right here. So that's  confusing I know but let's continue anyways. So now that we have our enter  selection this returns a new selection that we can do stuff with so we have a  selection containing three placeholders. Now for each I'm just gonna indent this  this is how I like to do it for each of these placeholders will append a"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 389.9,
+            "end": 434.17999999999995,
+            "text": " rectangle right because we want to append a rectangle for each data element or a  bar for each data element. Okay so append rectangle and we want to give it some  attributes. So let's begin by specifying the width the width and previously we  just hard encoded this and we just tied out a value like this but in this case  we want the width since the width will be the value the property that that"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 434.18,
+            "end": 472.9,
+            "text": " displays the data that we have we want the width to be a function of the data.  So instead of just typing out a value right here like this in a value we'll use a  function and if you if you have no idea what a function means I'm sorry but I  don't think I have time to explain in detail what it means right now you can  google it how functions work in JavaScript but essentially it takes an input"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 472.9,
+            "end": 521.94,
+            "text": " does something to it and returns a value of some sort. So let's return yeah right  when we have this data we can give the function an argument D whatever you can  call this whatever you like but the standard is D so D stands for each data  element that we have in our placeholder selection our address selection so we  can return D simply here so we'll return for each data element that is within our"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 521.94,
+            "end": 561.14,
+            "text": " address selection the width of our rectangle here that we append will be a  function of the data so the first the first bar will be 20 pixels wide the second  one 40 pixels wide and the third one 50 pixels wide and this is similar to a loop  if you've dealt with loops before it goes through all the data elements and for  each data elements it returns the value of that data and and assigns the width of the"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 561.14,
+            "end": 608.74,
+            "text": " rectangle corresponding to that data so let's also give it a height let's say each  no we can just say that each rectangle rectangle will have a height of 50 pixels and  let's let's take a look at how this looks we head over head over to our browser  and refresh when you get we just get this blob and that is because we need to  separate since SVG starts drawing from drawing from the top left each rectangle is"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 608.74,
+            "end": 651.3,
+            "text": " placed upon I mean in the same place so the biggest rectangle covers the rest of  them so we need to give them additional properties let's give them why  property which is the vertical coordinate let that be a function of the index and  this is another thing you just have to get used to since we have this placeholder  selection the functions the first argument contains the data 204050 the second one"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 651.3,
+            "end": 704.94,
+            "text": " contains the number the index of each data so this is the first one the second one  and the third one so let's since I stands for index we can return I times let's say 100  and let's save this and refresh and we see that the distance between each rectangle and  the vertical distance is 100 pixels well you don't see that but it is so this is 50  pixels tall since we that's what we specified here in the height and after since the distance"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 704.94,
+            "end": 755.52,
+            "text": " is 100 pixels there's a 50 pixel gap between each rectangle but it doesn't look very good  right they're really tiny and you can hardly see the difference between them so let's  here in the width property we can return d times let's say 10 so it will return this value  here for each data element times 10 so 20 will be 200 and so on let's say oh no save and refresh  and we get I mean we're getting somewhere this is yeah it's a very basic ugly looking bar chart but"
+        },
+        {
+            "number": "6",
+            "title": "D3.js-tutorial-04-Visualizing-data",
+            "start": 755.52,
+            "end": 794.88,
+            "text": " at least we have a bar chart and the bar chart is powered by our data element here but so yeah in  the future this data variable will be replaced by a larger data set probably in an external file  somewhere yeah that's the that's an introduction to displaying data using d3 and I know it's  very complicated but yeah it just takes a lot of practice and thinking so yeah I'll see you in the  next video"
+        }
+    ],
+    "text": " Hello there, I'm Vieno and this is my fourth video tutorial on D3. In this video we'll take a look at how to actually bind data to our visualization or in other words actually visualize data on our webpage using D3. So in the previous video we take, we took a look at SVG which is an image format for displaying graphical elements on our webpage and in this video we'll use SVG to visualize a basic data set. So first of all we'll just erase this. We'll keep our canvas element since we need a canvas to draw our visualization. So usually when you visualize data you have a large data set in a file somewhere, an SV file or JSON file, there are different file formats for storing data but for the purpose of this tutorial we'll just create our own data here. So we'll create a new variable called data array which is will be an array and if you don't know what an array is it's just a simple collection of data. You could think of this as since we have three elements in our data array here this is kind of like three different variables but stored in one variable. Yeah so let's say we want to visualize this data. We could do this in a number of ways we could display a circle for each data we could do it in a vast variety of ways but in this case let's say we wanted to make a simple bar chart. So each data point here would be represented by a bar. Let's begin by creating a the bars variable and we start out from the canvas variable which is defined here. Now this is where some strange things begin to happen and this will be very confusing to you. I think most people are utterly confused by this. There are several steps here which may seem kind of weird in the beginning but after a while you'll get the hang of it. Let me try to explain the best I can and then you can just like sit in a like your favorite chair and just contemplate about this. The first step is to select all. This is a new method we use. Select all is similar to the select method which we looked at previous but it selects all elements that we specify like yeah in here between the brackets and the quotes. So since we want to create bars bars are basically rectangles right so we're selecting all rectangles but this is weird right because we don't have any actual rectangles on our page. So what this method does in this context is returning an empty array or an empty selection but it's still useful because we can use that empty selection to bind we can connect it to our data and that is done using the data method and within brackets we specify where our data is coming from and in this case we have a variable set up here containing our data so we just specify that our data comes from the data array variable. So so far we've bound our data to an empty selection. The next step is the enter method. This method returns placeholders for each data element for which there are no corresponding elements I mean doom elements on the page. So yeah that's that's weird but let's say we we actually had two two rectangles already on the page then this data method here would bind them to like we're selecting all the rectangles. So let's say there are two rectangles and the data method binds our data right here to those rectangles but the enter method contains placeholders for each data point or each data element for which there are no corresponding doom elements I mean and that is rectangles on our page but since in this case we don't have any rectangles at all we are enter method contains placeholders for each and every data element so we're returned with three placeholders for each of these values right here. So that's confusing I know but let's continue anyways. So now that we have our enter selection this returns a new selection that we can do stuff with so we have a selection containing three placeholders. Now for each I'm just gonna indent this this is how I like to do it for each of these placeholders will append a rectangle right because we want to append a rectangle for each data element or a bar for each data element. Okay so append rectangle and we want to give it some attributes. So let's begin by specifying the width the width and previously we just hard encoded this and we just tied out a value like this but in this case we want the width since the width will be the value the property that that displays the data that we have we want the width to be a function of the data. So instead of just typing out a value right here like this in a value we'll use a function and if you if you have no idea what a function means I'm sorry but I don't think I have time to explain in detail what it means right now you can google it how functions work in JavaScript but essentially it takes an input does something to it and returns a value of some sort. So let's return yeah right when we have this data we can give the function an argument D whatever you can call this whatever you like but the standard is D so D stands for each data element that we have in our placeholder selection our address selection so we can return D simply here so we'll return for each data element that is within our address selection the width of our rectangle here that we append will be a function of the data so the first the first bar will be 20 pixels wide the second one 40 pixels wide and the third one 50 pixels wide and this is similar to a loop if you've dealt with loops before it goes through all the data elements and for each data elements it returns the value of that data and and assigns the width of the rectangle corresponding to that data so let's also give it a height let's say each no we can just say that each rectangle rectangle will have a height of 50 pixels and let's let's take a look at how this looks we head over head over to our browser and refresh when you get we just get this blob and that is because we need to separate since SVG starts drawing from drawing from the top left each rectangle is placed upon I mean in the same place so the biggest rectangle covers the rest of them so we need to give them additional properties let's give them why property which is the vertical coordinate let that be a function of the index and this is another thing you just have to get used to since we have this placeholder selection the functions the first argument contains the data 204050 the second one contains the number the index of each data so this is the first one the second one and the third one so let's since I stands for index we can return I times let's say 100 and let's save this and refresh and we see that the distance between each rectangle and the vertical distance is 100 pixels well you don't see that but it is so this is 50 pixels tall since we that's what we specified here in the height and after since the distance is 100 pixels there's a 50 pixel gap between each rectangle but it doesn't look very good right they're really tiny and you can hardly see the difference between them so let's here in the width property we can return d times let's say 10 so it will return this value here for each data element times 10 so 20 will be 200 and so on let's say oh no save and refresh and we get I mean we're getting somewhere this is yeah it's a very basic ugly looking bar chart but at least we have a bar chart and the bar chart is powered by our data element here but so yeah in the future this data variable will be replaced by a larger data set probably in an external file somewhere yeah that's the that's an introduction to displaying data using d3 and I know it's very complicated but yeah it just takes a lot of practice and thinking so yeah I'll see you in the next video"
+}

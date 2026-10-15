@@ -1,0 +1,222 @@
+{
+    "chunks": [
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 0.0,
+            "end": 34.16,
+            "text": " Hi, I'm Pete Forsyth with Wiki Strategies, and I'm going to do a bit of a demo here of  some tools on Wikimedia Commons that I think are not very well known in the Wikimedia  world except for regular Wikimedia Commons users.  There's some excellent options that let you do a lot of things, a lot of big tasks efficiently.  Much of this, I think, has been developed by user RILCA, so I'm going to finish up by going"
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 34.16,
+            "end": 53.32,
+            "text": " to their user page so you can see who they are.  I think a lot of people have been involved in these, but yeah, there's a lot I don't know  here, so I'm just going to do sort of a quick demo and there may be some more information  to fill in.  I might just do this another time if I miss some things, but let's give it a go."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 53.32,
+            "end": 72.56,
+            "text": " So as you can see, and I should mention this is something probably more for intermediate  to advanced Wikimedia users.  I think most of this stuff will be a bit beyond what beginners are going to want to look  at, but by all means, check it out if you're interested.  So you can see I'm on a category page."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 72.56,
+            "end": 94.8,
+            "text": " I've come to a category called Baseball Players, and I have the first tool I'm going to show  you is called Cat a Lot.  This one is actually you can turn on in your preferences under the Gadgets section.  It's available on Commons, but not on a lot of other Wikis, but as you'll see, it actually  could be pretty useful on other Wikis too, so I hope that'll change."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 94.8,
+            "end": 119.12,
+            "text": " So when you have the gadget enabled, whenever you go to a category, or I think various other  kinds of pages too that list various files, you'll see this in the lower right corner.  You'll see this, it says Cat a Lot, and so when you click the name, it toggles it into  a bigger window.  And once you've activated it like that, that gives you the ability to select various files"
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 119.12,
+            "end": 132.3,
+            "text": " and then recategorize them.  So I'm going to click here again to shrink the window, and I'm going to get just scroll  down.  Now as we see in the Baseball Players category, there's this subcategory called Black and  White Portrait Photographs of Baseball Players."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 132.3,
+            "end": 153.32,
+            "text": " So I'm just going to pick a few of these in the top category, and I'm going to put them  in that more specific category.  So once you've clicked on Cat a lot, you're going to have the ability to select a file by  clicking in the area around the name.  Okay, and I'm going to just close this again."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 153.32,
+            "end": 172.39999999999998,
+            "text": " I think to click the first one, you have to have the window open, but once you've done  that, you should be able to click a few more.  So I'm going to just hold the Shift key, or no, the Control key, and oh no, I guess I can't.  So here I am already getting confused.  So this is something that I've found a little tricky with Cat a lot, is that you sometimes"
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 172.39999999999998,
+            "end": 191.6,
+            "text": " have to work around the window, which can be a little frustrating, but not that big  a deal.  So I'm going to just select three of these files.  I could select 20 or 50 of them if I wanted to.  And now I'm going to go into this window, and if I wanted to just find a completely different"
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 191.6,
+            "end": 204.76000000000002,
+            "text": " category, I could type it into the Enter category name area, and it would sort of auto fill  it.  But in this case, it's down here.  You see it's as a subcategory, it's listed here.  Black and white portrait photos of baseball players."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 204.76000000000002,
+            "end": 224.8,
+            "text": " And I have the option to either move or copy the files that I've selected.  So I'm going to move them so they come out of the top level category, and they go instead  into the more specific category.  But you might use copy to keep them in both categories in another circumstance.  So I'm going to click on it, and you see it, the dialog window shows the progress as"
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 224.8,
+            "end": 238.52,
+            "text": " it's going through the files.  It actually happened so quick that it was before the window was fully open.  But if it was 50 files, you'd see them just going through one by one.  So now that has been done.  I can click on Return to Page, and actually I'm going to have to refresh the page, which"
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 238.52,
+            "end": 256.04,
+            "text": " is a little counterintuitive before I see the results.  So the files that I chose are still in here.  But if I now refresh this page, you'll see that they're going to be gone.  Those files are now gone out of this category.  So that's a quick intro to Catalot."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 256.04,
+            "end": 285.36,
+            "text": " And again, Catalot is something that you can turn on in your preferences.  Now here, the next one I'm going to show you is really, really powerful.  I actually don't remember exactly how to turn it on.  So we'll leave that to be filled in, maybe in the comments.  But in the left-hand screen, I'm going to, oh, under Tools, there's Perform Batch Task."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 285.36,
+            "end": 302.76,
+            "text": " And I think this was by putting something in my JavaScript file that created this menu  item for me.  So if I click this, remember I'm in the Baseball Players category.  This whole new interface opens up.  Again, this is JavaScript on top of MediaWiki."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 302.76,
+            "end": 314.16,
+            "text": " And it's going to pre-fill.  It notices I'm in this category.  So that's the one that's going to assume that I want to work on.  I could click more options if I want to and do a subset.  But I'll skip that for now."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 314.16,
+            "end": 332.16,
+            "text": " Let's just proceed with this one.  And you'll see this window is going to expand to fill the screen.  So I'm in a completely unfamiliar, different kind of interface here.  So now I can do all kinds of crazy stuff with the stuff in this category.  So the first thing I'm going to do is choose what is it that I'm going to do to a bunch"
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 332.16,
+            "end": 346.68,
+            "text": " of these files.  So I could nominate a bunch of them for deletion.  If this was a category that had maybe a lot of copyright violations, and I wanted to do  just a batch nomination that puts them all in one nomination.  And there's a bunch of different variants on that."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 346.68,
+            "end": 362.76,
+            "text": " I could also do a custom replace.  I don't know what a lot of these options are.  I've only used this for very specific things.  So I'm not going to pretend that I know more than I do here.  But as you can see, there are a lot of different options."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 362.76,
+            "end": 379.76,
+            "text": " And once you've...  So let's just stick with nominate for deletion.  I could give a reason here.  So I'm going to say these files are ugly.  You know, obviously I'd say something better and more policy based than that."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 379.76,
+            "end": 395.74,
+            "text": " And this is going to tell me what's going to go in the edit summary and sign my name  and things like that.  And then when you're done, you're going to click execute.  And that's going to be similar to what we just saw with Catalot.  It's going to go through and boom, boom, boom, boom, make a bunch of different edits from"
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 395.74,
+            "end": 412.8,
+            "text": " your username to all of these files.  So obviously I don't want to do that here.  But oh, I should point out, in this case, the way that you select these things is actually  by clicking on the checkboxes.  Okay, so I'm going to cancel this before I get in trouble."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 412.8,
+            "end": 429.92,
+            "text": " And the final thing I'm going to show you is really...  It's sort of a subset of that.  This is actually what I encountered first out of all these tools.  And again, I think some of these are just enabled by default and other ones you maybe  have to add some JavaScript to your user space."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 429.92,
+            "end": 447.72,
+            "text": " But you can do things like here, I'm going to go to a specific file.  So let's check out normal bridge.  And let's say I just want to nominate this file for deletion.  I'm going to click there.  Now, some of these you want to not click directly because if you choose..."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 447.72,
+            "end": 459.40000000000003,
+            "text": " I've learned this the hard way.  If I say report copyright violation, there might be a number of different things I mean  with that.  But I'm not going to get a dialogue at all.  It's just going to take a bunch of actions just the moment that I click on that link."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 459.40000000000003,
+            "end": 477.64000000000004,
+            "text": " So I just happen to know nominate for deletion.  This is one that's a little safer.  It's going to ask me why should it be deleted and I can explain.  This is a copyright violation.  And I might put a link to where else I've found it on the web."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 477.64,
+            "end": 489.47999999999996,
+            "text": " And it's going to give us some reminders and more information if you want to click in  here.  And then when you click the proceed button, it's going to file a nomination.  It's going to tag the file.  It's going to notify the person who uploaded it."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 489.47999999999996,
+            "end": 504.96,
+            "text": " It's going to do all of these tasks to all in one go.  So that's really...  That's what I wanted to show you.  As I said, the person that I think has done the most work to develop this framework is  user RILCA."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 504.96,
+            "end": 530.76,
+            "text": " I've spoken with a few times, but I don't know too well, but I believe is German.  So here's the user page and they're very responsive.  No, so I think I may be wrong about the ethnicity because I'm level three.  So I don't know what their native language is.  But I have certainly found that RILCA is very responsive if you have questions."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 530.76,
+            "end": 545.96,
+            "text": " So I hope that they won't mind if I invite you to reach out to them if you want to learn  more about this.  So I hope this has been interesting.  And if you have ideas about this video and how it could be more useful, please let me know  because I'll probably do a more a tidier version of it."
+        },
+        {
+            "number": "8",
+            "title": "Javascript-tools-on-Commons",
+            "start": 545.96,
+            "end": 551.48,
+            "text": " But I just wanted to throw this together to do a quick intro first.  Thanks for watching."
+        }
+    ],
+    "text": " Hi, I'm Pete Forsyth with Wiki Strategies, and I'm going to do a bit of a demo here of some tools on Wikimedia Commons that I think are not very well known in the Wikimedia world except for regular Wikimedia Commons users. There's some excellent options that let you do a lot of things, a lot of big tasks efficiently. Much of this, I think, has been developed by user RILCA, so I'm going to finish up by going to their user page so you can see who they are. I think a lot of people have been involved in these, but yeah, there's a lot I don't know here, so I'm just going to do sort of a quick demo and there may be some more information to fill in. I might just do this another time if I miss some things, but let's give it a go. So as you can see, and I should mention this is something probably more for intermediate to advanced Wikimedia users. I think most of this stuff will be a bit beyond what beginners are going to want to look at, but by all means, check it out if you're interested. So you can see I'm on a category page. I've come to a category called Baseball Players, and I have the first tool I'm going to show you is called Cat a Lot. This one is actually you can turn on in your preferences under the Gadgets section. It's available on Commons, but not on a lot of other Wikis, but as you'll see, it actually could be pretty useful on other Wikis too, so I hope that'll change. So when you have the gadget enabled, whenever you go to a category, or I think various other kinds of pages too that list various files, you'll see this in the lower right corner. You'll see this, it says Cat a Lot, and so when you click the name, it toggles it into a bigger window. And once you've activated it like that, that gives you the ability to select various files and then recategorize them. So I'm going to click here again to shrink the window, and I'm going to get just scroll down. Now as we see in the Baseball Players category, there's this subcategory called Black and White Portrait Photographs of Baseball Players. So I'm just going to pick a few of these in the top category, and I'm going to put them in that more specific category. So once you've clicked on Cat a lot, you're going to have the ability to select a file by clicking in the area around the name. Okay, and I'm going to just close this again. I think to click the first one, you have to have the window open, but once you've done that, you should be able to click a few more. So I'm going to just hold the Shift key, or no, the Control key, and oh no, I guess I can't. So here I am already getting confused. So this is something that I've found a little tricky with Cat a lot, is that you sometimes have to work around the window, which can be a little frustrating, but not that big a deal. So I'm going to just select three of these files. I could select 20 or 50 of them if I wanted to. And now I'm going to go into this window, and if I wanted to just find a completely different category, I could type it into the Enter category name area, and it would sort of auto fill it. But in this case, it's down here. You see it's as a subcategory, it's listed here. Black and white portrait photos of baseball players. And I have the option to either move or copy the files that I've selected. So I'm going to move them so they come out of the top level category, and they go instead into the more specific category. But you might use copy to keep them in both categories in another circumstance. So I'm going to click on it, and you see it, the dialog window shows the progress as it's going through the files. It actually happened so quick that it was before the window was fully open. But if it was 50 files, you'd see them just going through one by one. So now that has been done. I can click on Return to Page, and actually I'm going to have to refresh the page, which is a little counterintuitive before I see the results. So the files that I chose are still in here. But if I now refresh this page, you'll see that they're going to be gone. Those files are now gone out of this category. So that's a quick intro to Catalot. And again, Catalot is something that you can turn on in your preferences. Now here, the next one I'm going to show you is really, really powerful. I actually don't remember exactly how to turn it on. So we'll leave that to be filled in, maybe in the comments. But in the left-hand screen, I'm going to, oh, under Tools, there's Perform Batch Task. And I think this was by putting something in my JavaScript file that created this menu item for me. So if I click this, remember I'm in the Baseball Players category. This whole new interface opens up. Again, this is JavaScript on top of MediaWiki. And it's going to pre-fill. It notices I'm in this category. So that's the one that's going to assume that I want to work on. I could click more options if I want to and do a subset. But I'll skip that for now. Let's just proceed with this one. And you'll see this window is going to expand to fill the screen. So I'm in a completely unfamiliar, different kind of interface here. So now I can do all kinds of crazy stuff with the stuff in this category. So the first thing I'm going to do is choose what is it that I'm going to do to a bunch of these files. So I could nominate a bunch of them for deletion. If this was a category that had maybe a lot of copyright violations, and I wanted to do just a batch nomination that puts them all in one nomination. And there's a bunch of different variants on that. I could also do a custom replace. I don't know what a lot of these options are. I've only used this for very specific things. So I'm not going to pretend that I know more than I do here. But as you can see, there are a lot of different options. And once you've... So let's just stick with nominate for deletion. I could give a reason here. So I'm going to say these files are ugly. You know, obviously I'd say something better and more policy based than that. And this is going to tell me what's going to go in the edit summary and sign my name and things like that. And then when you're done, you're going to click execute. And that's going to be similar to what we just saw with Catalot. It's going to go through and boom, boom, boom, boom, make a bunch of different edits from your username to all of these files. So obviously I don't want to do that here. But oh, I should point out, in this case, the way that you select these things is actually by clicking on the checkboxes. Okay, so I'm going to cancel this before I get in trouble. And the final thing I'm going to show you is really... It's sort of a subset of that. This is actually what I encountered first out of all these tools. And again, I think some of these are just enabled by default and other ones you maybe have to add some JavaScript to your user space. But you can do things like here, I'm going to go to a specific file. So let's check out normal bridge. And let's say I just want to nominate this file for deletion. I'm going to click there. Now, some of these you want to not click directly because if you choose... I've learned this the hard way. If I say report copyright violation, there might be a number of different things I mean with that. But I'm not going to get a dialogue at all. It's just going to take a bunch of actions just the moment that I click on that link. So I just happen to know nominate for deletion. This is one that's a little safer. It's going to ask me why should it be deleted and I can explain. This is a copyright violation. And I might put a link to where else I've found it on the web. And it's going to give us some reminders and more information if you want to click in here. And then when you click the proceed button, it's going to file a nomination. It's going to tag the file. It's going to notify the person who uploaded it. It's going to do all of these tasks to all in one go. So that's really... That's what I wanted to show you. As I said, the person that I think has done the most work to develop this framework is user RILCA. I've spoken with a few times, but I don't know too well, but I believe is German. So here's the user page and they're very responsive. No, so I think I may be wrong about the ethnicity because I'm level three. So I don't know what their native language is. But I have certainly found that RILCA is very responsive if you have questions. So I hope that they won't mind if I invite you to reach out to them if you want to learn more about this. So I hope this has been interesting. And if you have ideas about this video and how it could be more useful, please let me know because I'll probably do a more a tidier version of it. But I just wanted to throw this together to do a quick intro first. Thanks for watching."
+}

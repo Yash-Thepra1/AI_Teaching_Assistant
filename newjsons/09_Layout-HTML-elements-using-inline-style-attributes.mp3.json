@@ -1,0 +1,82 @@
+{
+    "chunks": [
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 0.0,
+            "end": 36.56,
+            "text": " Okay, so welcome back. So we remember from our XML example that we could get this kind of HTML file  transferred from it via the mapping. So when we save this file and we load the page in our browser,  it looks somewhat like this. And we already see that there's my playlist and I played a few  tracks by some bands on some records, but it doesn't really look good. So we can include style  sheets. So each of the HTML tags allows us to put some style information inside. And we do this"
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 36.56,
+            "end": 73.03999999999999,
+            "text": " by including this style attribute. And here we can set some values. So for example, I could go and  say, well, the background should be another color and the color here would be 0099.8. So we remember  these two ones are a hexadecimal number for the red channel. This is green and this is blue.  So we get some kind of blueish green here with a more focus on blue. We save this and reload the  page. We already see our background has changed. But maybe we want to have more style information."
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 73.03999999999999,
+            "end": 116.32,
+            "text": " So for example, we could also say by separating this with a semicolon that the color should be white.  And when we do this and we refresh the page, it's white. And then we could even change the color.  So we can go here and say, well, the font family. Family should be open-sans.  And we also make a semicolon here. And when we save this, the font looks much better than  okay. Another thing that we can do is we can look at the heading here and we can put some style"
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 116.32,
+            "end": 155.76000000000002,
+            "text": " information here. Let's say that we want to make the color here different. So assume we have the color  which should be orange. And we save this and we refresh the page. We see, oh yeah, it's orange.  But then we could also say, well, we don't want to have this space over here. So we can go and set  the margin, be zero, and we could also add the padding to zero. So when we do this and we reload the  thing, it already looks well. I wouldn't even say better because we need to change more things for"
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 155.76000000000002,
+            "end": 192.56,
+            "text": " the style. But it has changed at least. A problem that we're running into now is that we have  to do this manually for all eight threes that we want to change. So here's the title toxicity that we  might want to change. And here's bring your own bombs that we also want to change. So we refresh the page  and it's back here. In the next lesson, we will see a better mechanism than changing everything by hand.  So let's look at this list entry element. So in the list entry element, we can also define"
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 193.28,
+            "end": 229.68,
+            "text": " the style. And we could say, well, maybe we want to have a border at the bottom.  And when we want to have a bottom border, it should be one pixel, a solid line, and the color should  be white. So when we define this and we refresh the page, we see that there is a border here.  So one nice thing that we can do in our browser is we can inspect this element.  And so we see it here. And then of course, we could change this style here. So when we say, well,"
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 229.68,
+            "end": 265.84,
+            "text": " the border white is not enough for us. Maybe we want to introduce some white space. So let's have a  margin here. And with the margin, usually I have four fields to enter, but I will only use a short  buttoned version. I can read more in the script about this. And I put the margin of 30 pixels to the  bottom. So you can see how it already changed and also that the one kind of like went to the right.  And I don't only want to do this with the margin because I also want this line to be moved further"
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 265.84,
+            "end": 310.15999999999997,
+            "text": " down. So I could also go here and say, well, I have padding at the bottom. And this should be another 20  pixel. So in this way, it moved down. So as you can see, within your browser, you can actually  pretty easy change some styles. And when you're happy with them, you just go and say, well, I copy this  as HTML. And when I do so, I can put it in here, which was maybe a little bit too much.  Let me just reverse this and see if I can do a better job. I just want to copy this a little bit"
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 310.64000000000004,
+            "end": 345.04,
+            "text": " inside this style information and paste it here. Then of course, I have to do this for every list  element that I know of. But once I've done this, I can close this bar, refresh the page,  and my list already looks much better. So maybe I want to do the same with the  audit list element here so I can introduce another style and say, well, this style here should also  have it should have a border. And the border again should be one pixel, it should be solid,"
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 345.84000000000003,
+            "end": 385.44,
+            "text": " and it should be white. And they should be, well, let's just demonstrate what happens here.  If I do this, I get this nice border around. But maybe it's not so nice. I might like it a little  bit better if I make the corners round. So I can make the border radius and set it to maybe something  like 6 pixels. So now the corners are rounded. So this is how you can work on styles with HTML.  And in the next few lessons, I will introduce you the concept of style sheets."
+        },
+        {
+            "number": "9",
+            "title": "Layout-HTML-elements-using-inline-style-attributes",
+            "start": 387.28,
+            "end": 393.44,
+            "text": " Enjoy the rest of the web science MOOC. I'm Ren\u00e9 Picard speaking."
+        }
+    ],
+    "text": " Okay, so welcome back. So we remember from our XML example that we could get this kind of HTML file transferred from it via the mapping. So when we save this file and we load the page in our browser, it looks somewhat like this. And we already see that there's my playlist and I played a few tracks by some bands on some records, but it doesn't really look good. So we can include style sheets. So each of the HTML tags allows us to put some style information inside. And we do this by including this style attribute. And here we can set some values. So for example, I could go and say, well, the background should be another color and the color here would be 0099.8. So we remember these two ones are a hexadecimal number for the red channel. This is green and this is blue. So we get some kind of blueish green here with a more focus on blue. We save this and reload the page. We already see our background has changed. But maybe we want to have more style information. So for example, we could also say by separating this with a semicolon that the color should be white. And when we do this and we refresh the page, it's white. And then we could even change the color. So we can go here and say, well, the font family. Family should be open-sans. And we also make a semicolon here. And when we save this, the font looks much better than okay. Another thing that we can do is we can look at the heading here and we can put some style information here. Let's say that we want to make the color here different. So assume we have the color which should be orange. And we save this and we refresh the page. We see, oh yeah, it's orange. But then we could also say, well, we don't want to have this space over here. So we can go and set the margin, be zero, and we could also add the padding to zero. So when we do this and we reload the thing, it already looks well. I wouldn't even say better because we need to change more things for the style. But it has changed at least. A problem that we're running into now is that we have to do this manually for all eight threes that we want to change. So here's the title toxicity that we might want to change. And here's bring your own bombs that we also want to change. So we refresh the page and it's back here. In the next lesson, we will see a better mechanism than changing everything by hand. So let's look at this list entry element. So in the list entry element, we can also define the style. And we could say, well, maybe we want to have a border at the bottom. And when we want to have a bottom border, it should be one pixel, a solid line, and the color should be white. So when we define this and we refresh the page, we see that there is a border here. So one nice thing that we can do in our browser is we can inspect this element. And so we see it here. And then of course, we could change this style here. So when we say, well, the border white is not enough for us. Maybe we want to introduce some white space. So let's have a margin here. And with the margin, usually I have four fields to enter, but I will only use a short buttoned version. I can read more in the script about this. And I put the margin of 30 pixels to the bottom. So you can see how it already changed and also that the one kind of like went to the right. And I don't only want to do this with the margin because I also want this line to be moved further down. So I could also go here and say, well, I have padding at the bottom. And this should be another 20 pixel. So in this way, it moved down. So as you can see, within your browser, you can actually pretty easy change some styles. And when you're happy with them, you just go and say, well, I copy this as HTML. And when I do so, I can put it in here, which was maybe a little bit too much. Let me just reverse this and see if I can do a better job. I just want to copy this a little bit inside this style information and paste it here. Then of course, I have to do this for every list element that I know of. But once I've done this, I can close this bar, refresh the page, and my list already looks much better. So maybe I want to do the same with the audit list element here so I can introduce another style and say, well, this style here should also have it should have a border. And the border again should be one pixel, it should be solid, and it should be white. And they should be, well, let's just demonstrate what happens here. If I do this, I get this nice border around. But maybe it's not so nice. I might like it a little bit better if I make the corners round. So I can make the border radius and set it to maybe something like 6 pixels. So now the corners are rounded. So this is how you can work on styles with HTML. And in the next few lessons, I will introduce you the concept of style sheets. Enjoy the rest of the web science MOOC. I'm Ren\u00e9 Picard speaking."
+}

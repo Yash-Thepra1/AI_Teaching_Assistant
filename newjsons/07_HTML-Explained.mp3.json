@@ -1,0 +1,159 @@
+{
+    "chunks": [
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 0.0,
+            "end": 28.080000000000002,
+            "text": " Take a look at this very basic HTML script.  This is what is known as a Hello World script.  This is because when viewed in your web browser, it simply shows Hello World.  You can find a copy of this script in the description below.  Before we start writing any code, however, it's important that we understand the basic concepts"
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 28.08,
+            "end": 48.64,
+            "text": " behind HTML code.  To do this, we will break HTML into four easy to understand sections.  Syntax, tags, attributes, and structure.  Syntax simply refers to the letters and symbols used to write a language, otherwise known  as code."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 48.64,
+            "end": 70.52,
+            "text": " Take a look at this sentence.  Now let's view it in HTML.  The sentence has not changed.  Instead, we have added HTML to the sentence.  We do this by using the greater than and less than symbols, and in this case, the letter P,"
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 70.52,
+            "end": 85.6,
+            "text": " which stands for paragraph or sentence.  An image would be written by using the less than and greater than symbols, and the letters  IMG.  You can probably guess what these three letters stand for.  That's right."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 85.6,
+            "end": 98.28,
+            "text": " Image.  A website link would be created by using the less than and greater than symbols, and the letter  A.  This one may be a little trickier to catch.  The A stands for anchor."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 98.28,
+            "end": 121.04,
+            "text": " In essence, we are saying this word is anchored, attached, or linked to another website, or  another location on that page.  Have you detected a pattern?  Notice that HTML sin tax uses the same symbols over and over again, combined with letters  that identify the kind of content we want to display."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 121.04,
+            "end": 149.04,
+            "text": " These combinations are called HTML tags.  To help us better understand how HTML tags work, take a look at this t-shirt.  As you can see, there is a price tag attached to it.  The tag reveals important information about the t-shirt.  In the same way, modern websites contain sections like menus, banners, images, and links."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 149.04,
+            "end": 172.6,
+            "text": " All of these can be created using HTML tags.  Let's take a look behind the scenes to see how we can do this.  Each time we create a webpage, we will want to use the dot type declaration.  This is placed on the very first line, and it tells the web browser, like Chrome, Edge,  or Safari, that this is an HTML webpage."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 172.6,
+            "end": 197.8,
+            "text": " Next we will need to add our main HTML tags.  We first add what is called an open tag, followed by a closed tag.  These two tags are virtually identical with the only difference being that the closed tag  is written with a forward slash immediately following the less than symbol.  Close or ending tags, as they are sometimes called, simply help us to identify where a section"
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 197.8,
+            "end": 220.60000000000002,
+            "text": " of code starts and where it ends, followed by the head tag.  Now we can declare the title of our webpage using the title tag.  When creating a webpage, remember that everything we want people to see on our webpage will  need to be placed inside of the body tag.  Once that is created, we can begin to add our sections."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 220.60000000000002,
+            "end": 241.35999999999999,
+            "text": " Notice we have a div tag here with an ID.  This is an attribute which we will discuss in just a few moments.  For now, let's focus on the name of the div tag.  It's called main banner, so we are declaring this division as our main banner.  And you can see that inside of this division, we have an image."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 241.35999999999999,
+            "end": 266.36,
+            "text": " Below this we have an H1 or header tag.  And a paragraph tag, followed by an image.  And finally, we are going to create our link using the anchor tag, which we can do by simply  using the letter A inside of our less than and greater than symbols.  So let's do a quick review."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 266.36,
+            "end": 294.44,
+            "text": " First off, all tags are written by placing the name of our tag between a less than symbol  and a greater than symbol, as we saw in the examples.  Second, most tags will have an open tag and a closed tag.  The closed tag will have a forward slash that immediately follows the less than symbol.  And third, our content will be placed between the open and closed tags, as you can see here."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 294.44,
+            "end": 322.0,
+            "text": " Just as our t-shirt tag contains important information or attributes that describe our t-shirt,  for example the brand, size and price, HTML tags also contain attributes that describe  our content.  For example, using the style attribute, we can adjust the color of our tags.  And in our A tag, using the href attribute, we can change the link's destination."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 322.0,
+            "end": 346.68,
+            "text": " This link, for example, will take you to Amazon.  And this one, to YouTube.  Harnessing the power of attributes is key to effectively using HTML to build websites.  Keep in mind that just as tags are attached to content, attributes are attached to tags.  And when used in HTML, they are always placed inside the tag."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 346.68,
+            "end": 366.47999999999996,
+            "text": " This relationship between content and tags, as well as tags in their attributes, helped  to highlight the fact that HTML follows a structure.  HTML structure in many ways mirrors our own structure.  Now all people are different.  Structurally they share many similarities."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 366.47999999999996,
+            "end": 386.76,
+            "text": " They store important information in their head.  They have a body and feet.  Likewise, a website also has a head located at the top of the HTML document, followed by  a body and feet or footer.  So how does this affect the design or layout of our site?"
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 386.76,
+            "end": 406.47999999999996,
+            "text": " Well, let's take a look at a couple of examples.  Here we have two websites.  Visually they look different.  But if we look a little closer, we see that structurally they are similar.  Information stored in the head tells viewers and web browsers what the website is about."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 406.47999999999996,
+            "end": 426.36,
+            "text": " What we see when we visit a website is located within the body section.  The footer also plays an important role, acting in most cases like a summary of the website  content.  Each HTML structure helps us organize our code into manageable sections and avoid becoming  overwhelmed."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 426.36,
+            "end": 450.54,
+            "text": " In the same way, with these four fundamental concepts understood, learning how to code  will be much easier.  HTML has well over 100 different tags that you can use to build your website and applications.  Thankfully the Bern de Lern team has created a complete HTML series.  In this series, we teach you how to use each one of these tags."
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 450.54,
+            "end": 473.48,
+            "text": " We also include pro tips to help you master each HTML tag.  Please consider helping our team by becoming a patron of Bern de Lern.  Our patron members have exclusive access to additional training courses, plus question  and answer sessions.  In addition to the HTML series, you can also check out our popular videos on programs like"
+        },
+        {
+            "number": "7",
+            "title": "HTML-Explained",
+            "start": 473.48,
+            "end": 488.04,
+            "text": " Zoom, Outlook, Excel and PowerPoint, just to name a few.  Bern de Lern is working to help you understand the changes in technology as they happen.  Stay in the know, subscribe today."
+        }
+    ],
+    "text": " Take a look at this very basic HTML script. This is what is known as a Hello World script. This is because when viewed in your web browser, it simply shows Hello World. You can find a copy of this script in the description below. Before we start writing any code, however, it's important that we understand the basic concepts behind HTML code. To do this, we will break HTML into four easy to understand sections. Syntax, tags, attributes, and structure. Syntax simply refers to the letters and symbols used to write a language, otherwise known as code. Take a look at this sentence. Now let's view it in HTML. The sentence has not changed. Instead, we have added HTML to the sentence. We do this by using the greater than and less than symbols, and in this case, the letter P, which stands for paragraph or sentence. An image would be written by using the less than and greater than symbols, and the letters IMG. You can probably guess what these three letters stand for. That's right. Image. A website link would be created by using the less than and greater than symbols, and the letter A. This one may be a little trickier to catch. The A stands for anchor. In essence, we are saying this word is anchored, attached, or linked to another website, or another location on that page. Have you detected a pattern? Notice that HTML sin tax uses the same symbols over and over again, combined with letters that identify the kind of content we want to display. These combinations are called HTML tags. To help us better understand how HTML tags work, take a look at this t-shirt. As you can see, there is a price tag attached to it. The tag reveals important information about the t-shirt. In the same way, modern websites contain sections like menus, banners, images, and links. All of these can be created using HTML tags. Let's take a look behind the scenes to see how we can do this. Each time we create a webpage, we will want to use the dot type declaration. This is placed on the very first line, and it tells the web browser, like Chrome, Edge, or Safari, that this is an HTML webpage. Next we will need to add our main HTML tags. We first add what is called an open tag, followed by a closed tag. These two tags are virtually identical with the only difference being that the closed tag is written with a forward slash immediately following the less than symbol. Close or ending tags, as they are sometimes called, simply help us to identify where a section of code starts and where it ends, followed by the head tag. Now we can declare the title of our webpage using the title tag. When creating a webpage, remember that everything we want people to see on our webpage will need to be placed inside of the body tag. Once that is created, we can begin to add our sections. Notice we have a div tag here with an ID. This is an attribute which we will discuss in just a few moments. For now, let's focus on the name of the div tag. It's called main banner, so we are declaring this division as our main banner. And you can see that inside of this division, we have an image. Below this we have an H1 or header tag. And a paragraph tag, followed by an image. And finally, we are going to create our link using the anchor tag, which we can do by simply using the letter A inside of our less than and greater than symbols. So let's do a quick review. First off, all tags are written by placing the name of our tag between a less than symbol and a greater than symbol, as we saw in the examples. Second, most tags will have an open tag and a closed tag. The closed tag will have a forward slash that immediately follows the less than symbol. And third, our content will be placed between the open and closed tags, as you can see here. Just as our t-shirt tag contains important information or attributes that describe our t-shirt, for example the brand, size and price, HTML tags also contain attributes that describe our content. For example, using the style attribute, we can adjust the color of our tags. And in our A tag, using the href attribute, we can change the link's destination. This link, for example, will take you to Amazon. And this one, to YouTube. Harnessing the power of attributes is key to effectively using HTML to build websites. Keep in mind that just as tags are attached to content, attributes are attached to tags. And when used in HTML, they are always placed inside the tag. This relationship between content and tags, as well as tags in their attributes, helped to highlight the fact that HTML follows a structure. HTML structure in many ways mirrors our own structure. Now all people are different. Structurally they share many similarities. They store important information in their head. They have a body and feet. Likewise, a website also has a head located at the top of the HTML document, followed by a body and feet or footer. So how does this affect the design or layout of our site? Well, let's take a look at a couple of examples. Here we have two websites. Visually they look different. But if we look a little closer, we see that structurally they are similar. Information stored in the head tells viewers and web browsers what the website is about. What we see when we visit a website is located within the body section. The footer also plays an important role, acting in most cases like a summary of the website content. Each HTML structure helps us organize our code into manageable sections and avoid becoming overwhelmed. In the same way, with these four fundamental concepts understood, learning how to code will be much easier. HTML has well over 100 different tags that you can use to build your website and applications. Thankfully the Bern de Lern team has created a complete HTML series. In this series, we teach you how to use each one of these tags. We also include pro tips to help you master each HTML tag. Please consider helping our team by becoming a patron of Bern de Lern. Our patron members have exclusive access to additional training courses, plus question and answer sessions. In addition to the HTML series, you can also check out our popular videos on programs like Zoom, Outlook, Excel and PowerPoint, just to name a few. Bern de Lern is working to help you understand the changes in technology as they happen. Stay in the know, subscribe today."
+}

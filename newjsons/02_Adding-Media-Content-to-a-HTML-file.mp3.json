@@ -1,0 +1,124 @@
+{
+    "chunks": [
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 0.0,
+            "end": 21.56,
+            "text": " So let's come back to the example of our playlist.  And as we can see here, there is the playlist, but maybe we want to display some images with  it.  So if we look inside my folder, I have downloaded the cover image of the system of a down record.  Let's include this here."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 21.56,
+            "end": 47.36,
+            "text": " And including images straight forward, basically we just have to put the image tag, then we  have to specify the source.  At an ORC, the source is just the name of the record.  Then we don't have to, but optionally it would be nice to do this to specify the width.  In order to save bandwidth, usually the picture should already be in the correct size."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 47.36,
+            "end": 65.36,
+            "text": " Let's make this 64 pixels.  So when we save this and we refresh the page, we got the image right here.  Something that we could do, and this always happens with images, they're just lined into  the text.  But the image is now bigger than the text that is following."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 65.36,
+            "end": 88.72,
+            "text": " So we want the text to be what is called floating.  And let's just do this with an inline style again.  So we can say style, we can say well float left.  What this means is that it will be displayed here like this.  It actually really makes sense to display the style sheet."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 88.72,
+            "end": 109.68,
+            "text": " I will not use the style sheet for an image tag because we might have all very kind of  images.  And then of course we want to rather have specific styles here.  We can also do this by using CSS classes, but I haven't introduced them here.  Another thing that we remarked now is that our list elements break."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 109.68,
+            "end": 132.28,
+            "text": " And we can also fix this by including a diff container here.  And say well, there's just one element and it consists of several stuff, which should  be the place for the list element.  And now we can just push this in a little bit, refresh the page and everything works.  There are quite some problems with images."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 132.28,
+            "end": 153.88,
+            "text": " One problem is that images are not as good as text files for being machine readable.  So what we should do in order to help search engines to index our images in a better way  and also to help disable people.  We should put an alternative text here.  So this is the alternative text."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 153.88,
+            "end": 173.84,
+            "text": " Another thing that we can do is we can put a title for the image.  And the title is something that we got to see when we have our over.  We say toxicity cover.  So when we refresh the page and our mouse goes over, we see toxicity cover image.  Those things are quite nice, but still there are some other problems with images."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 173.84,
+            "end": 196.68,
+            "text": " A lot of images contain information that we would rather want to have a machine readable  format.  And there's actually a way of using XML files to create SVGs.  And I will give you an example right now.  So we create a new file and we call it image.svg."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 196.68,
+            "end": 218.28,
+            "text": " Now we can open this also with our text editor over here.  And we just paste some code from the example.  And basically why we're doing this is because I don't want to remember all those dog type  definitions.  So what's really interesting is that this is an XML file."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 218.28,
+            "end": 243.48000000000002,
+            "text": " It has a dog type definition and then it starts with the SVG tech.  And this one has a few attributes, which you can see over here.  And we don't even have to use them like this.  We can even say, well, the image is just supposed to be 400 pixels with and the height should  be something like also 400 pixels."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 243.48000000000002,
+            "end": 277.0,
+            "text": " And then we can do drawings on the picture.  So for example, we have this rectangle tag here and we can just create another rectangle.  So this rectangle should be a little bit smaller and this one too.  We'll just save this first and show you the result of it.  So we go back to our playlist HTML and here at the very top we just include the image."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 277.0,
+            "end": 302.88,
+            "text": " And remember our image was named image.  And we see there is a rectangle and there is one small rectangle and the other one is at  the exact same position.  But what we can do is we can translate this to another position.  So let's say we translate this to 270 and here the height should be 240."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 302.88,
+            "end": 316.52,
+            "text": " Hopefully did the calculations right?  No, I didn't.  270 was not enough.  So maybe out of my head I had another 50 pixels.  So yes."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 316.52,
+            "end": 340.64,
+            "text": " So we can see that those boxes are inside here.  And again I can even use style information here.  So for example I could say well the boxes at the corner should have a style and let's  use a different filling and the filling should be very green blue but this time I want  to have everything red."
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 340.64,
+            "end": 366.56,
+            "text": " And I will do the same style for the other box.  So now if I update this the boxes became red.  So in this way I really have a great way of creating documents here.  So this is only a small amount of what is possible with SVG graphics.  There are some exercises where you can actually explore this a little bit further and you"
+        },
+        {
+            "number": "2",
+            "title": "Adding-Media-Content-to-a-HTML-file",
+            "start": 366.56,
+            "end": 377.4,
+            "text": " see that it is really useful to use this kind of open format that is based on XML.  I hope this was useful for you.  Enjoy the rest of the web science MOOC."
+        }
+    ],
+    "text": " So let's come back to the example of our playlist. And as we can see here, there is the playlist, but maybe we want to display some images with it. So if we look inside my folder, I have downloaded the cover image of the system of a down record. Let's include this here. And including images straight forward, basically we just have to put the image tag, then we have to specify the source. At an ORC, the source is just the name of the record. Then we don't have to, but optionally it would be nice to do this to specify the width. In order to save bandwidth, usually the picture should already be in the correct size. Let's make this 64 pixels. So when we save this and we refresh the page, we got the image right here. Something that we could do, and this always happens with images, they're just lined into the text. But the image is now bigger than the text that is following. So we want the text to be what is called floating. And let's just do this with an inline style again. So we can say style, we can say well float left. What this means is that it will be displayed here like this. It actually really makes sense to display the style sheet. I will not use the style sheet for an image tag because we might have all very kind of images. And then of course we want to rather have specific styles here. We can also do this by using CSS classes, but I haven't introduced them here. Another thing that we remarked now is that our list elements break. And we can also fix this by including a diff container here. And say well, there's just one element and it consists of several stuff, which should be the place for the list element. And now we can just push this in a little bit, refresh the page and everything works. There are quite some problems with images. One problem is that images are not as good as text files for being machine readable. So what we should do in order to help search engines to index our images in a better way and also to help disable people. We should put an alternative text here. So this is the alternative text. Another thing that we can do is we can put a title for the image. And the title is something that we got to see when we have our over. We say toxicity cover. So when we refresh the page and our mouse goes over, we see toxicity cover image. Those things are quite nice, but still there are some other problems with images. A lot of images contain information that we would rather want to have a machine readable format. And there's actually a way of using XML files to create SVGs. And I will give you an example right now. So we create a new file and we call it image.svg. Now we can open this also with our text editor over here. And we just paste some code from the example. And basically why we're doing this is because I don't want to remember all those dog type definitions. So what's really interesting is that this is an XML file. It has a dog type definition and then it starts with the SVG tech. And this one has a few attributes, which you can see over here. And we don't even have to use them like this. We can even say, well, the image is just supposed to be 400 pixels with and the height should be something like also 400 pixels. And then we can do drawings on the picture. So for example, we have this rectangle tag here and we can just create another rectangle. So this rectangle should be a little bit smaller and this one too. We'll just save this first and show you the result of it. So we go back to our playlist HTML and here at the very top we just include the image. And remember our image was named image. And we see there is a rectangle and there is one small rectangle and the other one is at the exact same position. But what we can do is we can translate this to another position. So let's say we translate this to 270 and here the height should be 240. Hopefully did the calculations right? No, I didn't. 270 was not enough. So maybe out of my head I had another 50 pixels. So yes. So we can see that those boxes are inside here. And again I can even use style information here. So for example I could say well the boxes at the corner should have a style and let's use a different filling and the filling should be very green blue but this time I want to have everything red. And I will do the same style for the other box. So now if I update this the boxes became red. So in this way I really have a great way of creating documents here. So this is only a small amount of what is possible with SVG graphics. There are some exercises where you can actually explore this a little bit further and you see that it is really useful to use this kind of open format that is based on XML. I hope this was useful for you. Enjoy the rest of the web science MOOC."
+}

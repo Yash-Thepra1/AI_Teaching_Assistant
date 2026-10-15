@@ -1,0 +1,124 @@
+{
+    "chunks": [
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 0.0,
+            "end": 35.82,
+            "text": " Hi and welcome to the second part of this tutorial series on D3. In this part we'll  explore some of the basic functionality in D3 and that is selecting and  appending elements to our webpage. So yeah let's start right off the bat. First of  all what we want to do is to actually fetch the library or include the  library so that we can use it and that is done with a script tag and if you"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 35.82,
+            "end": 72.94,
+            "text": " haven't used JavaScript before then then I can tell you that whenever you use  JavaScript you have to include the code between an opening and a closing  script tag. So and in this case since we are not we just want to include the  whole library we will add this source attribute attribute to our tag and  specify the source the location of our library and you can do this either by"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 73.78,
+            "end": 121.9,
+            "text": " downloading the D3 library or you can reference it through an URL like I'm doing  now so let's see D3JS I think this is the right address. So what I'm doing here  is simply letting the browser know where to find the library and the actual D3  code or whenever you're writing JavaScript code like I said just included  between script tags and let's begin writing some code. So first of all let's"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 121.9,
+            "end": 159.22,
+            "text": " try and select an element on our webpage. As of now we don't we don't really  have any elements we just have these well the body element and the head element  but let's add a paragraph outside the D3 code so this is a paragraph and let's do  something to it using D3. First of all when we're writing D3 code the first  thing to know is that we start by typing out D3 and then simply select which is"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 159.22,
+            "end": 196.62,
+            "text": " the name of the select method and we specify between brackets and quotes what  we want to select. So as of now we have selected the paragraph element but we  haven't done anything to it so if we head over to the browser and refresh yeah  we see the paragraph here since we added it using HTML but this D3 code  doesn't really do anything to it. So let's do something to it. I'll use the"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 196.62,
+            "end": 239.9,
+            "text": " text method and replace the text within the paragraph tags so let's say hello  world and we hit refresh and you can see that the text has changed from this  is a paragraph to hello world. Now before I explain how how this code  actually works let me show you another basic example so let's say we don't have  any paragraph elements on our webpage so I'll remove that and I'll remove this"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 240.62,
+            "end": 282.38,
+            "text": " and let's try to add a new paragraph element. The way we do this is again  typing out D3 and select but this time we select the body and we append  something to it and of course we append a paragraph and we need to  supply it with some text so that we can see it. High watts up and save and then  head over to our browser and refresh and we have a new paragraph element. Now of"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 282.38,
+            "end": 318.54,
+            "text": " course you don't need D3 to perform these basic operations and this is not what  D3 was designed to do but it provides a good starting point in my view for  explaining how D3 works. So let's review this code. What is this? First of all this  D3, these two characters. So if you have some knowledge about JavaScript you'll  understand this easier but I'm gonna try to explain what's happening"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 318.54,
+            "end": 361.02,
+            "text": " even to the rest of you. D3 actually refers to something called an object. An  object is simply well not simply but it's a complex collection of data and we  can actually take a look at D3 and see like inspect it further and the way we  do this is by using something called the console. The console is provided by the  browser and I'm using Google Chrome and the way I I click up the console is by"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 361.02,
+            "end": 393.5,
+            "text": " right clicking on the page and selecting inspect element. If you're using  Firefox then you you can just install the fire bug plugin and you'll have  the same options and I'm sure there's other alternatives in Safari and the  rest of the browsers. So the first section where provided with is the  element section which is simply it's showing us our the original source code and"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 393.5,
+            "end": 438.46000000000004,
+            "text": " also the elements that we have dynamically added to our web page but the  section that I want to show you right now is this one called the console. Right  now it's empty but let's try I'm gonna show you something. So let's write console  log D3 save and refresh and you see that we are provided here with well it's  maybe look like just a random line collection of characters but this is"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 438.46000000000004,
+            "end": 473.78000000000003,
+            "text": " actually the D3 object itself so if we click this little arrow thing we see  everything that yeah this is the D3 object and all of these are as you can see  functions functions and objects of different sort and here in the top you can  see that D3 is an object as I said before so I wasn't lying. Yeah this  this looks complicated and we won't be inspecting the D3 object itself but"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 473.78,
+            "end": 512.38,
+            "text": " we'll be using this console tool in the future to inspect various things. One  thing that I want to show you is that one of these functions is actually the  select function which you'll remember from our example. We are using the D3  object and one of its inherent methods which is select and as you can see in  the console yeah this basically shows you the properties of well how the"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 512.38,
+            "end": 548.3,
+            "text": " select function works but we won't go into detail as to what this means because  it's quite complicated but yeah I hope you get the picture that you can  actually review and inspect any element that we're using in D3 and as we move on  you'll be able to understand more and more of what this actually means. So a  quick review. Our code here you know what we're doing we are selecting the body"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 548.3,
+            "end": 580.78,
+            "text": " and we're pending a paragraph to it with the text high what's up and in more  technical terms we are calling the D3 object we are using one of its inherent  functions functions or methods they're basically synonyms and within brackets  and quotes we are providing it with an argument and this is we are simply  stating that we are selecting the body element right and this returns a"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 580.78,
+            "end": 614.1800000000001,
+            "text": " selection which we can do stuff with and we are appending something to the  selection so we are appending a paragraph element to the body element kind of  straightforward and then we can use another method called the text method and  specify what text should be added within the paragraph tags and you start to  see this pattern of every method and object being separated by a dot and this"
+        },
+        {
+            "number": "5",
+            "title": "D3.js-tutorial-02-SelectAndAppend",
+            "start": 614.1800000000001,
+            "end": 637.02,
+            "text": " is called method chaining and yeah this is just this is the way we we connect our  selections and the method we want to use on them so I hope that's relatively  clear and we'll take a look at some more basic examples in the next video"
+        }
+    ],
+    "text": " Hi and welcome to the second part of this tutorial series on D3. In this part we'll explore some of the basic functionality in D3 and that is selecting and appending elements to our webpage. So yeah let's start right off the bat. First of all what we want to do is to actually fetch the library or include the library so that we can use it and that is done with a script tag and if you haven't used JavaScript before then then I can tell you that whenever you use JavaScript you have to include the code between an opening and a closing script tag. So and in this case since we are not we just want to include the whole library we will add this source attribute attribute to our tag and specify the source the location of our library and you can do this either by downloading the D3 library or you can reference it through an URL like I'm doing now so let's see D3JS I think this is the right address. So what I'm doing here is simply letting the browser know where to find the library and the actual D3 code or whenever you're writing JavaScript code like I said just included between script tags and let's begin writing some code. So first of all let's try and select an element on our webpage. As of now we don't we don't really have any elements we just have these well the body element and the head element but let's add a paragraph outside the D3 code so this is a paragraph and let's do something to it using D3. First of all when we're writing D3 code the first thing to know is that we start by typing out D3 and then simply select which is the name of the select method and we specify between brackets and quotes what we want to select. So as of now we have selected the paragraph element but we haven't done anything to it so if we head over to the browser and refresh yeah we see the paragraph here since we added it using HTML but this D3 code doesn't really do anything to it. So let's do something to it. I'll use the text method and replace the text within the paragraph tags so let's say hello world and we hit refresh and you can see that the text has changed from this is a paragraph to hello world. Now before I explain how how this code actually works let me show you another basic example so let's say we don't have any paragraph elements on our webpage so I'll remove that and I'll remove this and let's try to add a new paragraph element. The way we do this is again typing out D3 and select but this time we select the body and we append something to it and of course we append a paragraph and we need to supply it with some text so that we can see it. High watts up and save and then head over to our browser and refresh and we have a new paragraph element. Now of course you don't need D3 to perform these basic operations and this is not what D3 was designed to do but it provides a good starting point in my view for explaining how D3 works. So let's review this code. What is this? First of all this D3, these two characters. So if you have some knowledge about JavaScript you'll understand this easier but I'm gonna try to explain what's happening even to the rest of you. D3 actually refers to something called an object. An object is simply well not simply but it's a complex collection of data and we can actually take a look at D3 and see like inspect it further and the way we do this is by using something called the console. The console is provided by the browser and I'm using Google Chrome and the way I I click up the console is by right clicking on the page and selecting inspect element. If you're using Firefox then you you can just install the fire bug plugin and you'll have the same options and I'm sure there's other alternatives in Safari and the rest of the browsers. So the first section where provided with is the element section which is simply it's showing us our the original source code and also the elements that we have dynamically added to our web page but the section that I want to show you right now is this one called the console. Right now it's empty but let's try I'm gonna show you something. So let's write console log D3 save and refresh and you see that we are provided here with well it's maybe look like just a random line collection of characters but this is actually the D3 object itself so if we click this little arrow thing we see everything that yeah this is the D3 object and all of these are as you can see functions functions and objects of different sort and here in the top you can see that D3 is an object as I said before so I wasn't lying. Yeah this this looks complicated and we won't be inspecting the D3 object itself but we'll be using this console tool in the future to inspect various things. One thing that I want to show you is that one of these functions is actually the select function which you'll remember from our example. We are using the D3 object and one of its inherent methods which is select and as you can see in the console yeah this basically shows you the properties of well how the select function works but we won't go into detail as to what this means because it's quite complicated but yeah I hope you get the picture that you can actually review and inspect any element that we're using in D3 and as we move on you'll be able to understand more and more of what this actually means. So a quick review. Our code here you know what we're doing we are selecting the body and we're pending a paragraph to it with the text high what's up and in more technical terms we are calling the D3 object we are using one of its inherent functions functions or methods they're basically synonyms and within brackets and quotes we are providing it with an argument and this is we are simply stating that we are selecting the body element right and this returns a selection which we can do stuff with and we are appending something to the selection so we are appending a paragraph element to the body element kind of straightforward and then we can use another method called the text method and specify what text should be added within the paragraph tags and you start to see this pattern of every method and object being separated by a dot and this is called method chaining and yeah this is just this is the way we we connect our selections and the method we want to use on them so I hope that's relatively clear and we'll take a look at some more basic examples in the next video"
+}

@@ -1,0 +1,68 @@
+{
+    "chunks": [
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 0.0,
+            "end": 33.8,
+            "text": " Hello there, I'm Vieno and this is my first YouTube tutorial on D3, which is a  JavaScript library. In this first part I should say we won't be doing any actual  coding, I will just talk briefly about what D3 is. So if you feel that you already  have that knowledge you should just skip this part and move on to the second part.  So for the rest of you, D3 stands for data-driven documents and it's like I said"
+        },
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 33.8,
+            "end": 66.52,
+            "text": " it's a JavaScript library, it's not its own language, it's a library that allows  you to visualize data on a web page in a really easy way actually. Well the  learning curve can be quite steep but once you get the hang of it it's really  easy to make quite advanced visualizations. So yeah this is the official web  page D3js.org and if you click examples here you'll get this long list of"
+        },
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 66.52,
+            "end": 110.16,
+            "text": " different visualizations made using D3, some are highly dynamic, some are less  dynamic, yeah and also for most of them if you click let's see let's pick this  one. If you click if you click the visualization you get the actual  visualization and also the code powering it, powering it so it can be really  helpful watching other examples and the D3js.org is a good starting"
+        },
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 110.16,
+            "end": 150.0,
+            "text": " starting point. So this is D3 code, we'll get into what this means later. Right so  what do you need to know, I mean how advanced do you have to be in order to  start coding in D3? Well actually it's kind of it's quite simple but you  should have some some knowledge about other other languages. Yeah that you  use that you use in web design before you start diving into D3. So if I just"
+        },
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 150.0,
+            "end": 195.72000000000003,
+            "text": " click up my text editor here which this is the place where we'll be doing our  actual D3 coding. If you don't understand what this means you should probably  learn about HTML before you start it doesn't take that long it's quite easy to  to learn but this is yeah core concept core language of web design. So apart  from HTML you should be familiar with CSS. D3 uses CSS3 selectors in"
+        },
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 195.72000000000003,
+            "end": 233.04,
+            "text": " manipulating the web document so yeah you should you should know some CSS. As for  JavaScript I wouldn't say it's necessary to actually know JavaScript before  you start learning D3. In my case it was almost the opposite I mean I knew some  JavaScript but hadn't really been doing a lot of stuff with it but I really  felt that my comprehension of JavaScript increased dramatically as I learned"
+        },
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 233.04,
+            "end": 279.56,
+            "text": " more and more about D3. Also you should be familiar with the concept the  doom which stands for the document object model which basically refers to the  hierarchical structure of a web page. Yeah but you should just yeah Google that  and read about it. So yeah I think that's I think we'll settle with that for  this part. Well yeah actually now I can't remember if I showed you this but if"
+        },
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 279.56,
+            "end": 321.98,
+            "text": " you if you head over to d3js.org and click documentation and then API  reference you'll get this long list of every every method and object and all  the stuff that you use in D3. Let's just pick something here. Yeah you get this  short explanation of each each concept it can be quite technical and and  short but it's a great it's a great source to to head over to whenever you get"
+        },
+        {
+            "number": "4",
+            "title": "D3.js-tutorial-01-Introduction",
+            "start": 321.98,
+            "end": 341.97999999999996,
+            "text": " confused. Sometimes it helps sometimes it just confuses you even more but yeah  I think we'll settle with that for this part and we'll in the next part we'll  actually try writing some D3 code. So yeah I'll see you in the next part."
+        }
+    ],
+    "text": " Hello there, I'm Vieno and this is my first YouTube tutorial on D3, which is a JavaScript library. In this first part I should say we won't be doing any actual coding, I will just talk briefly about what D3 is. So if you feel that you already have that knowledge you should just skip this part and move on to the second part. So for the rest of you, D3 stands for data-driven documents and it's like I said it's a JavaScript library, it's not its own language, it's a library that allows you to visualize data on a web page in a really easy way actually. Well the learning curve can be quite steep but once you get the hang of it it's really easy to make quite advanced visualizations. So yeah this is the official web page D3js.org and if you click examples here you'll get this long list of different visualizations made using D3, some are highly dynamic, some are less dynamic, yeah and also for most of them if you click let's see let's pick this one. If you click if you click the visualization you get the actual visualization and also the code powering it, powering it so it can be really helpful watching other examples and the D3js.org is a good starting starting point. So this is D3 code, we'll get into what this means later. Right so what do you need to know, I mean how advanced do you have to be in order to start coding in D3? Well actually it's kind of it's quite simple but you should have some some knowledge about other other languages. Yeah that you use that you use in web design before you start diving into D3. So if I just click up my text editor here which this is the place where we'll be doing our actual D3 coding. If you don't understand what this means you should probably learn about HTML before you start it doesn't take that long it's quite easy to to learn but this is yeah core concept core language of web design. So apart from HTML you should be familiar with CSS. D3 uses CSS3 selectors in manipulating the web document so yeah you should you should know some CSS. As for JavaScript I wouldn't say it's necessary to actually know JavaScript before you start learning D3. In my case it was almost the opposite I mean I knew some JavaScript but hadn't really been doing a lot of stuff with it but I really felt that my comprehension of JavaScript increased dramatically as I learned more and more about D3. Also you should be familiar with the concept the doom which stands for the document object model which basically refers to the hierarchical structure of a web page. Yeah but you should just yeah Google that and read about it. So yeah I think that's I think we'll settle with that for this part. Well yeah actually now I can't remember if I showed you this but if you if you head over to d3js.org and click documentation and then API reference you'll get this long list of every every method and object and all the stuff that you use in D3. Let's just pick something here. Yeah you get this short explanation of each each concept it can be quite technical and and short but it's a great it's a great source to to head over to whenever you get confused. Sometimes it helps sometimes it just confuses you even more but yeah I think we'll settle with that for this part and we'll in the next part we'll actually try writing some D3 code. So yeah I'll see you in the next part."
+}

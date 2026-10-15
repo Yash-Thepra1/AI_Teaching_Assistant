@@ -1,0 +1,180 @@
+{
+    "chunks": [
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 0.0,
+            "end": 20.0,
+            "text": " Today we build 7 really cool CSS animations that only take 1 minute.  So let's go.  Hey guys, welcome to a new YouTube tutorial.  Today we're going to build CSS animations.  But these animations are not complex, but every animation takes 1 minute."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 20.0,
+            "end": 41.0,
+            "text": " In a minute you have your project and your app implemented and built up.  That's why we're going to do it directly.  If you have questions or want to ask yourself for animations, please write a video description.  You can find the link to Discord, join the community server, ask your questions, help others or just say hello.  Otherwise we'll start with the first animation. Have fun and let's go."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 42.0,
+            "end": 66.0,
+            "text": " So that's it with today's video.  As you can see, I've prepared a few things and now with the first effect, I want to explain what it's like to start with.  First, we need to use my standard development environment that is under video description.  Otherwise, it's like I said, it's normal to use JavaScript, but this file is not yet.  That means our JavaScript is empty and it's still empty."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 66.0,
+            "end": 88.0,
+            "text": " We have an index HTML here that we only need to have a div container with the class element and the class effect.  This white constructor is using the white box.  I'll write two more in the description.  And there are many other elements.  The top layer is our CSS file, the bottom layer is our element, not quite clear."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 88.0,
+            "end": 111.0,
+            "text": " But here we won't do anything important.  We have an element and the effect as a class.  The effect is always to use the single effect and the element is our standard tag that we use to show this white element.  If we look at it, you can see that in our CSS file.  You can see that in my standard file, which I use in every video, which I define a few things like colors,"
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 111.0,
+            "end": 135.0,
+            "text": " that I'm building, so marginal padding, that we have 10 pixels as a basic size because we work with it.  And here I'm just simply writing in the wrapper these white elements in the middle.  They have two elements, which have two in the middle.  And the element as such, as a class, there is a higher width of this white box.  Here I say, okay, it's white. Here I say, element is centered."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 135.0,
+            "end": 160.0,
+            "text": " That's important for the effect.  That means, transition is just saying that we have this animation, which CSS is being created.  And position relative, I give the most elements standard with false, with position absolute or something,  that I always write on the upper left corner of the box and not on the upper left corner of the side.  Basically, we find the code that we are today in this video description and the video description is linked on codepan."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 160.0,
+            "end": 182.0,
+            "text": " There you can see the same process or see or define what we want to do.  We don't need that anymore, so that's why it's going to be so long.  Now I will start and try to show you 7 effects in half of a minute.  The whole thing is really simple.  In particular, I also have to quickly write that I get the whole thing in 7 minutes,"
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 182.0,
+            "end": 214.0,
+            "text": " which means there are some parts after this one minute, where I show that it's a minute possible to build it.  Basically, we are going to start and have fun.  So, the first effect we want to build is a principle simple.  We say we are OK and we say effect, hover, that means, on the hover cell something happens.  And here we say box minus shadow double point here inside 0, 0, 0.5 frame and prime."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 215.0,
+            "end": 250.0,
+            "text": " The whole thing is not really long, it has 223 or 23 seconds, if it works correctly.  And with this effect you can do something that is really cool, if we go over the element, you can see the box shadow doesn't go outside the element,  but it goes wonderfully into the element 3, it will practically be in the element and not outside the element.  So you can easily show a board that is in half of the element, which is practically so great or something like that.  And I think that's a simple effect, but here and there a really cool effect is made."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 250.0,
+            "end": 271.0,
+            "text": " That's why I can just recommend you to set it up.  So, the next effect is similar, regardless of principle.  And we have here again effect, double point hover and there is no double point inside,  we can also do something in this minute and cloud.  Here we say we build minus radios and here just two frames."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 271.0,
+            "end": 304.0,
+            "text": " And with that we have finished it, it has not really been long either.  And if we go in here, our element is missing, which is worth a round of money, is also a very important effect.  You can also use it in order to beat or something like that, to get ahead if you want to create a new or build.  At the end of the day, this effect will come very well, because the first and the first effect are the two coolest effects for really small mini-cleaning improvements.  The next effect will be a little more useful and also a little abstract, but that means we will continue with that."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 304.0,
+            "end": 327.0,
+            "text": " So, the third effect.  So this code is now completely complicated, so let's see if I get the thing.  But first we have to choose a second effect, after that we have to choose transition, because the whole thing has to be animated.  We need content to create something, even if it is empty.  Display block, so that this element can get with and with and so on."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 327.0,
+            "end": 346.0,
+            "text": " Then we have to position the whole thing with absolute.  So that the bottom of the picture is standing down, we have to give away left, we have to give away the bottom.  And then we have to give away 0, because we are going to animate it.  Then we have 0.5 frames, so 5 pixels.  And at the end we give away the whole thing with a color, and we say we just prime it."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 346.0,
+            "end": 369.0,
+            "text": " So, the next thing we need is that we have to animate it wonderfully, which means trigger.  And we are going to say that our effect class and say, at the top, something should happen.  And what exactly should happen is actually, we say, our effect should come together.  And we have to double point and then 100%.  So that we have the whole thing created in about a minute, very well."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 369.0,
+            "end": 396.0,
+            "text": " And when you go over it, you can see wonderful, here is a small orange arrow that shoots through.  You can of course change the height or also left and bottom, the whole change, that is from different directions.  So now we go to the next effect, that is very simple, we say effect, double point over.  And then we say, in the end, transform and here translate.  So we can influence the X and Y axis, for example, we say minus 2, that means we change the whole thing to the left."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 396.0,
+            "end": 415.0,
+            "text": " When we take the minus away, we change the whole thing to the right.  When we take the other axis with it, for example with a frame, we change the whole thing a little bit down.  So we have the possibility that X and Y axis are leaving to change with translate.  And that is a really cool and powerful effect.  So we start with this animation again with effect, double point over."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 415.0,
+            "end": 435.0,
+            "text": " Here we say box shadow.  Here we need a few attributes and then first 0, then 1.9 RAM.  And then in the end 3.8 RAM.  That is for the run, then RGA 0, 0, 0 and then 0.3.  That is the principle, that is black, but not 100%, but 0.30%."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 435.0,
+            "end": 454.0,
+            "text": " Then in the end 0, 1.5 frame, 1.2 RAM and then again RGA.  But this time with a little bit less 22.  That is the principle that runs up.  Next, we can simply do the airlush here, because otherwise it is wrong.  And now the whole thing works wonderfully."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 454.0,
+            "end": 474.0,
+            "text": " But when we transform and translate and the whole thing goes up, so minus 1.3,  then the whole thing looks much cooler.  This is also a effect that I used on my new home page,  and I actually like it very much.  So now let's go to the first effect and tover."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 474.0,
+            "end": 503.0,
+            "text": " Here we say animation and here animation in, for 500 milliseconds and the whole thing goes forward.  We also say keyframe with animation in and say 0% and transform.  Translate and first let's leave the layer, we feel the same.  We will copy that, because we need it all three times, that is, also for 50 and for 100%.  Now we write it down and write it down here, because we want to turn it down a little bit, with 5 degrees, so 5 degrees."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 503.0,
+            "end": 532.0,
+            "text": " And we say 0 and turn it down with one frame.  Let's copy it all, because we want it to be 100% like this and copy all the animations and make animations out.  We are going to take the layer and turn it up first and down the layer, and we do 0.0.  And up we fill the layer again.  We also have to add our animation and the original element and finish it."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 532.0,
+            "end": 565.0,
+            "text": " So now it's a cool effect, when we go up and change it to the other one, I only tried to get it for 40 minutes.  So we need this effect again, double-point tover, and we put a management fast and say here swigdle.  And then we have 250 milliseconds and the whole thing is already in front of us, which means it should stay at the end.  Also the E is a bit of a delay.  Next is keyframes, here we say swigdle as name and 0% and here we say transform, translate and 0.0."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 565.0,
+            "end": 598.0,
+            "text": " That means we want to start the whole thing at 0.0.  We need it all six times, that is, I just copy it now, 1, 2, 3, 4, 5.  Now we have six times, and we need to change something, which means the last one is 100, then 80%, 55%, 35%, and 15%.  Here we say that the whole thing should be on a frame, which means it should be right, we will copy it, and we will add it to 55 again.  Here we negate the whole thing and turn it up to 35%."
+        },
+        {
+            "number": "1",
+            "title": "7-CSS-Animationen-in-je-einer-Minute",
+            "start": 599.0,
+            "end": 627.0,
+            "text": " The whole thing has now been done for 54 seconds and we have a wonderful swigdle effect, which is, for example, on a 9 button, which is not activated, very cool.  That was it for this week, if you liked the video, leave a thumbs up and comment below the video.  Otherwise, if you have any questions about criticism or anything like that in the description of the video, Facebook, Twitter, Instagram, etc.  Otherwise, if you want to support these shelters, you can find them there either at Amazon or Patreon, where you can support them.  See you next week, see you again, have fun, and..."
+        }
+    ],
+    "text": " Today we build 7 really cool CSS animations that only take 1 minute. So let's go. Hey guys, welcome to a new YouTube tutorial. Today we're going to build CSS animations. But these animations are not complex, but every animation takes 1 minute. In a minute you have your project and your app implemented and built up. That's why we're going to do it directly. If you have questions or want to ask yourself for animations, please write a video description. You can find the link to Discord, join the community server, ask your questions, help others or just say hello. Otherwise we'll start with the first animation. Have fun and let's go. So that's it with today's video. As you can see, I've prepared a few things and now with the first effect, I want to explain what it's like to start with. First, we need to use my standard development environment that is under video description. Otherwise, it's like I said, it's normal to use JavaScript, but this file is not yet. That means our JavaScript is empty and it's still empty. We have an index HTML here that we only need to have a div container with the class element and the class effect. This white constructor is using the white box. I'll write two more in the description. And there are many other elements. The top layer is our CSS file, the bottom layer is our element, not quite clear. But here we won't do anything important. We have an element and the effect as a class. The effect is always to use the single effect and the element is our standard tag that we use to show this white element. If we look at it, you can see that in our CSS file. You can see that in my standard file, which I use in every video, which I define a few things like colors, that I'm building, so marginal padding, that we have 10 pixels as a basic size because we work with it. And here I'm just simply writing in the wrapper these white elements in the middle. They have two elements, which have two in the middle. And the element as such, as a class, there is a higher width of this white box. Here I say, okay, it's white. Here I say, element is centered. That's important for the effect. That means, transition is just saying that we have this animation, which CSS is being created. And position relative, I give the most elements standard with false, with position absolute or something, that I always write on the upper left corner of the box and not on the upper left corner of the side. Basically, we find the code that we are today in this video description and the video description is linked on codepan. There you can see the same process or see or define what we want to do. We don't need that anymore, so that's why it's going to be so long. Now I will start and try to show you 7 effects in half of a minute. The whole thing is really simple. In particular, I also have to quickly write that I get the whole thing in 7 minutes, which means there are some parts after this one minute, where I show that it's a minute possible to build it. Basically, we are going to start and have fun. So, the first effect we want to build is a principle simple. We say we are OK and we say effect, hover, that means, on the hover cell something happens. And here we say box minus shadow double point here inside 0, 0, 0.5 frame and prime. The whole thing is not really long, it has 223 or 23 seconds, if it works correctly. And with this effect you can do something that is really cool, if we go over the element, you can see the box shadow doesn't go outside the element, but it goes wonderfully into the element 3, it will practically be in the element and not outside the element. So you can easily show a board that is in half of the element, which is practically so great or something like that. And I think that's a simple effect, but here and there a really cool effect is made. That's why I can just recommend you to set it up. So, the next effect is similar, regardless of principle. And we have here again effect, double point hover and there is no double point inside, we can also do something in this minute and cloud. Here we say we build minus radios and here just two frames. And with that we have finished it, it has not really been long either. And if we go in here, our element is missing, which is worth a round of money, is also a very important effect. You can also use it in order to beat or something like that, to get ahead if you want to create a new or build. At the end of the day, this effect will come very well, because the first and the first effect are the two coolest effects for really small mini-cleaning improvements. The next effect will be a little more useful and also a little abstract, but that means we will continue with that. So, the third effect. So this code is now completely complicated, so let's see if I get the thing. But first we have to choose a second effect, after that we have to choose transition, because the whole thing has to be animated. We need content to create something, even if it is empty. Display block, so that this element can get with and with and so on. Then we have to position the whole thing with absolute. So that the bottom of the picture is standing down, we have to give away left, we have to give away the bottom. And then we have to give away 0, because we are going to animate it. Then we have 0.5 frames, so 5 pixels. And at the end we give away the whole thing with a color, and we say we just prime it. So, the next thing we need is that we have to animate it wonderfully, which means trigger. And we are going to say that our effect class and say, at the top, something should happen. And what exactly should happen is actually, we say, our effect should come together. And we have to double point and then 100%. So that we have the whole thing created in about a minute, very well. And when you go over it, you can see wonderful, here is a small orange arrow that shoots through. You can of course change the height or also left and bottom, the whole change, that is from different directions. So now we go to the next effect, that is very simple, we say effect, double point over. And then we say, in the end, transform and here translate. So we can influence the X and Y axis, for example, we say minus 2, that means we change the whole thing to the left. When we take the minus away, we change the whole thing to the right. When we take the other axis with it, for example with a frame, we change the whole thing a little bit down. So we have the possibility that X and Y axis are leaving to change with translate. And that is a really cool and powerful effect. So we start with this animation again with effect, double point over. Here we say box shadow. Here we need a few attributes and then first 0, then 1.9 RAM. And then in the end 3.8 RAM. That is for the run, then RGA 0, 0, 0 and then 0.3. That is the principle, that is black, but not 100%, but 0.30%. Then in the end 0, 1.5 frame, 1.2 RAM and then again RGA. But this time with a little bit less 22. That is the principle that runs up. Next, we can simply do the airlush here, because otherwise it is wrong. And now the whole thing works wonderfully. But when we transform and translate and the whole thing goes up, so minus 1.3, then the whole thing looks much cooler. This is also a effect that I used on my new home page, and I actually like it very much. So now let's go to the first effect and tover. Here we say animation and here animation in, for 500 milliseconds and the whole thing goes forward. We also say keyframe with animation in and say 0% and transform. Translate and first let's leave the layer, we feel the same. We will copy that, because we need it all three times, that is, also for 50 and for 100%. Now we write it down and write it down here, because we want to turn it down a little bit, with 5 degrees, so 5 degrees. And we say 0 and turn it down with one frame. Let's copy it all, because we want it to be 100% like this and copy all the animations and make animations out. We are going to take the layer and turn it up first and down the layer, and we do 0.0. And up we fill the layer again. We also have to add our animation and the original element and finish it. So now it's a cool effect, when we go up and change it to the other one, I only tried to get it for 40 minutes. So we need this effect again, double-point tover, and we put a management fast and say here swigdle. And then we have 250 milliseconds and the whole thing is already in front of us, which means it should stay at the end. Also the E is a bit of a delay. Next is keyframes, here we say swigdle as name and 0% and here we say transform, translate and 0.0. That means we want to start the whole thing at 0.0. We need it all six times, that is, I just copy it now, 1, 2, 3, 4, 5. Now we have six times, and we need to change something, which means the last one is 100, then 80%, 55%, 35%, and 15%. Here we say that the whole thing should be on a frame, which means it should be right, we will copy it, and we will add it to 55 again. Here we negate the whole thing and turn it up to 35%. The whole thing has now been done for 54 seconds and we have a wonderful swigdle effect, which is, for example, on a 9 button, which is not activated, very cool. That was it for this week, if you liked the video, leave a thumbs up and comment below the video. Otherwise, if you have any questions about criticism or anything like that in the description of the video, Facebook, Twitter, Instagram, etc. Otherwise, if you want to support these shelters, you can find them there either at Amazon or Patreon, where you can support them. See you next week, see you again, have fun, and..."
+}
